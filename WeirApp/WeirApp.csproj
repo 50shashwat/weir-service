@@ -185,11 +185,14 @@
     <Compile Include="Controllers\MeasurementController.cs" />
     <Compile Include="Controllers\ServiceRequestController.cs" />
     <Compile Include="Controllers\ServiceRequestSilverController.cs" />
+    <Compile Include="Controllers\SWTMappingController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\WearProfileController.cs" />
+    <Compile Include="Controllers\WearTheoryController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CaseStudy.cs" />
     <Compile Include="Models\Impeller.cs" />
     <Compile Include="Models\Lookup.cs">
       <SubType>Code</SubType>
@@ -199,8 +202,10 @@
     </Compile>
     <Compile Include="Models\Measurement.cs" />
     <Compile Include="Models\ServiceRequest.cs" />
+    <Compile Include="Models\SlurryWearTypeMapping.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\WearProfile.cs" />
+    <Compile Include="Models\WearTheory.cs" />
     <Compile Include="Models\WeirServiceContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TokenValidationHandler.cs" />
